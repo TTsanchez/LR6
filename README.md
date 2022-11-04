@@ -1,7 +1,7 @@
 # LR6
 Лабораторная работа №6
 
-Первым шагом мы форкаем (создаем копию репозитория в личное хранилище) репозиторий: https://github.com/Kurtyanik/LR6/
+Первым шагом мы создаем копию репозитория в личное хранилище репозиторий: https://github.com/Kurtyanik/LR6/
 
 ![1](https://github.com/TTsanchez/LR6/blob/master/imgs/1.jpg)
 
@@ -37,7 +37,7 @@
 
 ![9](https://github.com/TTsanchez/LR6/blob/master/imgs/9.jpg)
 
-Подробно рассмотрим коммиты с помощью команды git log -p.
+Используем команду git log -p, чтобы рассмотреть коммиты.
 
 ![10](https://github.com/TTsanchez/LR6/blob/master/imgs/10.jpg)
 ![11](https://github.com/TTsanchez/LR6/blob/master/imgs/11.jpg)
@@ -78,11 +78,11 @@
 
 ![20](https://github.com/TTsanchez/LR6/blob/master/imgs/20.jpg)
 
-Теперь сделаем "хард" откат коммита. Вводим git reset --hard HEAD~1
+Теперь сделаем "хард" откат коммита. Вводим команду git reset --hard HEAD~1
 
 ![21](https://github.com/TTsanchez/LR6/blob/master/imgs/21.jpg)
 
-Создадим ветку для отчета и перейдем в нее git branch report.
+Создадим ветку для отчета и перейдем в неё git branch report.
 
 ![22](https://github.com/TTsanchez/LR6/blob/master/imgs/22.jpg)
 
